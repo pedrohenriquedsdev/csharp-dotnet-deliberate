@@ -1,22 +1,22 @@
 <div align="center">
 
 <pre align="center">
- ██████╗███████╗██╗  ██╗ █████╗ ██████╗ ██████╗
-██╔════╝██╔════╝██║  ██║██╔══██╗██╔══██╗██╔══██╗
-██║     ███████╗███████║███████║██████╔╝██████╔╝
-██║     ╚════██║██╔══██║██╔══██║██╔══██╗██╔═══╝
-╚██████╗███████║██║  ██║██║  ██║██║  ██║██║
- ╚═════╝╚══════╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝
+ ██████╗ ██████╗ ███╗   ██╗███████╗ ██████╗ ██╗     ███████╗
+██╔════╝██╔═══██╗████╗  ██║██╔════╝██╔═══██╗██║     ██╔════╝
+██║     ██║   ██║██╔██╗ ██║███████╗██║   ██║██║     █████╗
+██║     ██║   ██║██║╚██╗██║╚════██║██║   ██║██║     ██╔══╝
+╚██████╗╚██████╔╝██║ ╚████║███████║╚██████╔╝███████╗███████╗
+ ╚═════╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝ ╚═════╝ ╚══════╝╚══════╝
 </pre>
 
-# ⚡ csharp-dotnet-deliberate
+# 🖥️ csharp-practice-console
 
-### _Prática deliberada. Todo dia. Sem exceção._
+### _Fundamentos sólidos. Uma sessão de cada vez._
 
-[![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)
 [![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)](https://learn.microsoft.com/dotnet/csharp/)
-[![GitHub](https://img.shields.io/badge/GitHub-pedrohenriquedsdev-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/pedrohenriquedsdev)
-[![Status](https://img.shields.io/badge/Status-Em_progresso_ativo-00C853?style=for-the-badge)](https://github.com/pedrohenriquedsdev/csharp-dotnet-deliberate)
+[![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://dotnet.microsoft.com/)
+[![Console App](https://img.shields.io/badge/Console-App-black?style=for-the-badge&logo=windowsterminal&logoColor=white)](https://github.com/pedrohenriquedsdev/csharp-practice-console)
+[![Status](https://img.shields.io/badge/Status-Em_progresso_ativo-00C853?style=for-the-badge)](https://github.com/pedrohenriquedsdev/csharp-practice-console)
 
 </div>
 
@@ -24,125 +24,112 @@
 
 ## 🧭 Sobre este repositório
 
-> **Este não é um projeto de produto. É um laboratório.**
+> **Este é o laboratório dos fundamentos — onde a base é construída todos os dias.**
 
-Este repositório é o registro da minha prática **deliberada e consistente** com o ecossistema **C# / .NET**. A ideia é simples: todo dia (ou quase todo dia), um conceito novo é explorado, implementado e documentado — com código real, estrutura pensada e raciocínio aplicado.
+Aqui vive a prática deliberada com **C# e .NET** no ambiente mais puro possível: o Console. Sem interfaces, sem ruído. Apenas lógica, estrutura e código bem escrito.
 
-Não é um tutorial. Não é um curso. É o meu caderno de treino — mas escrito em código.
+Cada sessão explora um conceito específico da linguagem ou da plataforma — implementado com clareza, organizado com intenção e documentado com contexto.
 
 ---
 
 ## 🎯 Propósito
 
-| 🏋️ Treino contínuo | 🏗️ Arquitetura real | 📚 Aprendizado aplicado |
+| 🏋️ Foco total | 🔬 Isolamento de conceitos | 🧱 Base para tudo |
 |---|---|---|
-| Consistência acima de perfeição | Padrões usados em produção | Conceitos documentados com exemplos |
-
-A cada sessão, o foco é em um tema específico do ecossistema .NET — desde fundamentos da linguagem até padrões de design e arquiteturas de software utilizadas no mercado.
+| Sem distrações de UI ou infra | Cada exercício testa uma coisa | O que é aprendido aqui sustenta projetos reais |
 
 ---
 
-## 🏗️ Abordagem arquitetural
+## 🏗️ Abordagem
 
-Aqui não rola código jogado em um `Program.cs` e pronto. Sempre que possível, os exercícios são organizados seguindo **arquiteturas e padrões reais**, como:
-
-- 🧱 **N-Tier / N-Camadas** — separação clara entre apresentação, negócio e dados
-- 🧩 **Arquitetura Modular** — organização por domínio/funcionalidade
-- 🎮 **MVC (Model-View-Controller)** — separação de responsabilidades clássica
-- 📐 **E outros padrões conforme o contexto exige**
-
-> A intenção é que qualquer pessoa que leia o código reconheça estruturas **usadas em projetos reais** — não apenas exemplos didáticos isolados.
+Mesmo sendo Console Apps, a organização do código segue **práticas reais de mercado**. Nada de tudo dentro de um `Main()`. Os exercícios são estruturados com separação de responsabilidades, padrões de projeto quando aplicável e arquiteturas reconhecíveis por qualquer desenvolvedor .NET.
 
 ---
 
 ## 📂 Estrutura do repositório
 
 ```
-csharp-dotnet-deliberate/
+csharp-practice-console/
 │
-├── 📁 Generics/               # Tipos genéricos, constraints, covariância
-├── 📁 Collections/            # List, Dictionary, IEnumerable e afins
-├── 📁 LINQ/                   # Queries, projeções, agrupamentos
-├── 📁 AsyncAwait/             # Programação assíncrona e Tasks
-├── 📁 DesignPatterns/         # Padrões de projeto (GoF e outros)
-├── 📁 EntityFramework/        # ORM, migrations, relacionamentos
-├── 📁 DependencyInjection/    # IoC, DI nativa do .NET
-├── 📁 ...                     # Novos tópicos adicionados continuamente
+├── 📁 Generics/                  # Tipos genéricos, constraints, variância
+├── 📁 Collections/               # List, Dictionary, Queue, Stack, Span...
+├── 📁 LINQ/                      # Queries, projeções, agrupamentos, joins
+├── 📁 DelegatesAndEvents/        # Delegates, Events, Func, Action, Predicate
+├── 📁 AsyncAwait/                # Tasks, async/await, CancellationToken
+├── 📁 OOP/                       # Herança, Polimorfismo, Interfaces, Abstrações
+├── 📁 DesignPatterns/            # Padrões GoF aplicados com exemplos práticos
+├── 📁 ErrorHandling/             # Exceptions, Result Pattern, validações
+├── 📁 FileIO/                    # Leitura e escrita de arquivos, streams
+├── 📁 ...                        # Novos tópicos adicionados continuamente
 │
 └── 📄 README.md
 ```
 
-> 🗂️ Cada pasta contém seu próprio contexto e, quando aplicável, uma arquitetura adequada ao tema estudado.
-
 ---
 
-## 🗓️ Progresso
-
-A consistência é o ponto. Cada commit representa uma sessão de estudo real.
-
-```
-Janeiro  ████████████████████░░░░░░░░░░  ~65%
-Fevereiro ███████████████░░░░░░░░░░░░░░  ~50%
-Março    █████████████████████░░░░░░░░░  ~70%
-...      Em construção — volte depois   🔨
-```
-
-> 📌 O repositório está em **progresso ativo**. Novos tópicos são adicionados regularmente.
-
----
-
-## 🧠 Tópicos explorados (ou a explorar)
+## 🧠 Tópicos explorados
 
 <details>
-<summary><strong>🔷 C# — Linguagem</strong></summary>
+<summary><strong>🔷 Linguagem C#</strong></summary>
 
 - [ ] Generics & Constraints
 - [ ] Delegates, Events & Lambdas
 - [ ] LINQ — sintaxe de query e método
 - [ ] async/await & Task Parallel Library
 - [ ] Records, Structs & Value Types
-- [ ] Pattern Matching
+- [ ] Pattern Matching avançado
 - [ ] Extension Methods
 - [ ] Nullable Reference Types
 - [ ] Reflection & Attributes
+- [ ] Iterators & yield
+- [ ] Span\<T\> & Memory\<T\>
 
 </details>
 
 <details>
-<summary><strong>🔷 .NET — Plataforma & Frameworks</strong></summary>
+<summary><strong>🔷 Orientação a Objetos</strong></summary>
+
+- [ ] Herança e Polimorfismo
+- [ ] Interfaces e Abstrações
+- [ ] Princípios SOLID
+- [ ] Composição vs. Herança
+- [ ] Encapsulamento avançado
+
+</details>
+
+<details>
+<summary><strong>🔷 Padrões de Projeto</strong></summary>
+
+- [ ] Creational: Factory, Builder, Singleton, Prototype
+- [ ] Structural: Adapter, Decorator, Facade, Proxy
+- [ ] Behavioral: Strategy, Observer, Command, Chain of Responsibility
+- [ ] Repository Pattern
+- [ ] Result Pattern
+
+</details>
+
+<details>
+<summary><strong>🔷 Plataforma .NET</strong></summary>
 
 - [ ] Dependency Injection nativa
-- [ ] Entity Framework Core
-- [ ] ASP.NET Core (Minimal APIs & Controllers)
-- [ ] Middleware & Pipeline HTTP
 - [ ] Configuration & Options Pattern
-- [ ] Background Services & Hosted Services
-- [ ] SignalR
-
-</details>
-
-<details>
-<summary><strong>🔷 Arquitetura & Padrões</strong></summary>
-
-- [ ] Repository Pattern
-- [ ] Unit of Work
-- [ ] CQRS (Command Query Responsibility Segregation)
-- [ ] Clean Architecture
-- [ ] Domain-Driven Design (conceitos)
-- [ ] Design Patterns (GoF — Creational, Structural, Behavioral)
+- [ ] Logging com ILogger
+- [ ] Serialização JSON (System.Text.Json)
+- [ ] Acesso a arquivos e streams
+- [ ] Testes unitários com xUnit / NUnit
 
 </details>
 
 ---
 
-## 👨‍💻 Sobre o autor
+## 👨‍💻 Autor
 
 <div align="center">
 
 **Pedro Henrique**
-Desenvolvedor em constante evolução, acreditando que consistência supera talento no longo prazo.
 
 [![GitHub](https://img.shields.io/badge/GitHub-pedrohenriquedsdev-181717?style=flat-square&logo=github)](https://github.com/pedrohenriquedsdev)
+[![Web Repo](https://img.shields.io/badge/Também_veja-csharp--practice--web-512BD4?style=flat-square&logo=dotnet)](https://github.com/pedrohenriquedsdev/csharp-practice-web)
 
 </div>
 
@@ -150,14 +137,8 @@ Desenvolvedor em constante evolução, acreditando que consistência supera tale
 
 <div align="center">
 
-**Se você chegou até aqui:** este repositório não é sobre mostrar que sei tudo.
-É sobre mostrar que **apareço todo dia**.
+_A consistência constrói o que o talento não consegue manter._
 
-_"We are what we repeatedly do. Excellence, then, is not an act, but a habit."_
-— Aristóteles
-
-<br/>
-
-⭐ Se o repositório te inspirou de alguma forma, deixa uma estrela!
+⭐ Se este repositório te inspirou, deixa uma estrela!
 
 </div>
