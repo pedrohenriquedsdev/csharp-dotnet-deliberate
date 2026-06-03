@@ -1,35 +1,39 @@
-﻿Console.Clear();
-Console.ForegroundColor = ConsoleColor.Cyan;
-Console.WriteLine("=========================================");
-Console.WriteLine("🚀 ESPAÇO DE TESTES E PRÁTICA 🚀");
-Console.WriteLine("=========================================");
-Console.ResetColor();
+﻿public partial class Program
+{
+    public static void Main(string[] args)
+    {
+        Console.Clear();
+        Console.ForegroundColor = ConsoleColor.Cyan;
+        Console.WriteLine("=========================================");
+        Console.WriteLine("🚀 ESPAÇO DE TESTES E PRÁTICA 🚀");
+        Console.WriteLine("=========================================");
+        Console.ResetColor();
 
 
-// ===================================================
-// 2. ESPAÇO PARA SUA TESTAGEM (Escreva seu código aqui)
-// ===================================================
+        // ===================================================
+        // 2. ESPAÇO PARA SUA TESTAGEM (Escreva seu código aqui)
+        // ===================================================
 
 
-Console.ForegroundColor = ConsoleColor.Yellow;
-Console.WriteLine("\n[TESTE 1] - Praticando Variáveis:");
-Console.ResetColor();
+        Console.ForegroundColor = ConsoleColor.Yellow;
+        Console.WriteLine("\nPraticando Generics\n");
+        Console.ResetColor();
 
-// --- Seu código começa aqui ---
-int idade = 25;
-string nome = "Dev";
-Console.WriteLine($"Olá {nome}, você tem {idade} anos.");
-// --- Seu código termina aqui ---
+        // --- Seu código começa aqui ---
+
+        // --- Seu código termina aqui ---
 
 
 
-// ===================================================
-// 3. RODAPÉ
-// ===================================================
-Console.ResetColor();
-Console.ForegroundColor = ConsoleColor.Magenta;
-Console.WriteLine("\n=========================================");
-Console.WriteLine("🎯 Teste finalizado com sucesso!");
-Console.WriteLine("=========================================");
-Console.ResetColor();
-Console.ReadLine(); // Segura a tela aberta
+        // ===================================================
+        // 3. RODAPÉ
+        // ===================================================
+        Console.ResetColor();
+        Console.ForegroundColor = ConsoleColor.Magenta;
+        Console.WriteLine("\n=========================================");
+        Console.WriteLine("🎯 Teste finalizado com sucesso!");
+        Console.WriteLine("=========================================");
+        Console.ResetColor();
+        Console.ReadLine(); // Segura a tela aberta
+    }
+}
