@@ -1,4 +1,5 @@
 ﻿using PraticasDeliberadas.ConsoleApp.VirtualPractices;
+using PraticasDeliberadas.ConsoleApp.VirtualPractices.FuncSalarios;
 
 public partial class Program
 {
@@ -22,12 +23,12 @@ public partial class Program
         Console.ResetColor();
 
         // --- Seu código começa aqui ---
-        Vaca vaca = new Vaca();
-        Cachorro cachorro = new Cachorro();
-        Gato gato = new Gato();
-        vaca.EmitirSom();
-        cachorro.EmitirSom();
-        gato.EmitirSom();
+        Desenvolvedor desenvolvedor = new Desenvolvedor();
+        Gerente gerente = new Gerente();
+        Estagiario estagiario = new Estagiario();
+        Console.WriteLine(desenvolvedor.CalcularSalario());
+        Console.WriteLine(gerente.CalcularSalario());
+        Console.WriteLine(estagiario.CalcularSalario());
         // --- Seu código termina aqui ---
 
 

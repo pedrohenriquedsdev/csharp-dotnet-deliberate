@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <Folder Include="VirtualPractices\FuncSalarios\" />
+    <Folder Include="VirtualPractices\FuncSalarios\Base\" />
   </ItemGroup>
 
 </Project>
