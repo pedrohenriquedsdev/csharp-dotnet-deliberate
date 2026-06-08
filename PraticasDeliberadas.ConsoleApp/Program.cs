@@ -1,4 +1,6 @@
-﻿public partial class Program
+﻿using PraticasDeliberadas.ConsoleApp.VirtualPractices;
+
+public partial class Program
 {
     public static void Main(string[] args)
     {
@@ -20,7 +22,12 @@
         Console.ResetColor();
 
         // --- Seu código começa aqui ---
-
+        Vaca vaca = new Vaca();
+        Cachorro cachorro = new Cachorro();
+        Gato gato = new Gato();
+        vaca.EmitirSom();
+        cachorro.EmitirSom();
+        gato.EmitirSom();
         // --- Seu código termina aqui ---
 
 

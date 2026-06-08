@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="VirtualPractices\" />
+    <Folder Include="VirtualPractices\FuncSalarios\" />
   </ItemGroup>
 
 </Project>
