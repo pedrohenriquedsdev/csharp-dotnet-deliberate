@@ -1,5 +1,5 @@
-﻿using PraticasDeliberadas.ConsoleApp.VirtualPractices;
-using PraticasDeliberadas.ConsoleApp.VirtualPractices.FuncSalarios;
+﻿using System.Text.Json;
+using PraticasDeliberadas.ConsoleApp.JsonSerialization.Dominio;
 
 public partial class Program
 {
@@ -23,12 +23,32 @@ public partial class Program
         Console.ResetColor();
 
         // --- Seu código começa aqui ---
-        Desenvolvedor desenvolvedor = new Desenvolvedor();
-        Gerente gerente = new Gerente();
-        Estagiario estagiario = new Estagiario();
-        Console.WriteLine(desenvolvedor.CalcularSalario());
-        Console.WriteLine(gerente.CalcularSalario());
-        Console.WriteLine(estagiario.CalcularSalario());
+
+        List<Produto2> produtos = new List<Produto2>
+        {
+            new Produto2("Arroz", 25.90m, 2),
+            new Produto2("Feijão", 8.50m, 3),
+            new Produto2("Macarrão", 5.75m, 1)
+        };
+
+        JsonSerializerOptions options = new JsonSerializerOptions
+        {
+            WriteIndented = true
+        };
+
+        //Serialização
+        string json = JsonSerializer.Serialize(produtos, options);
+
+        Console.WriteLine(json);
+
+        //DESserialização
+        List<Produto2> produtosDesserializados = JsonSerializer.Deserialize<List<Produto2>>(json)!;
+
+        foreach (Produto2 produto in produtosDesserializados)
+        {
+            Console.WriteLine($"{produto.Nome} - {produto.Preco} - {produto.Quantidade}");
+        }
+
         // --- Seu código termina aqui ---
 
 
