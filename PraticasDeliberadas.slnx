@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="Delegates.ConsoleApp/Delegates.ConsoleApp.csproj" />
   <Project Path="PraticasDeliberadas.ConsoleApp/PraticasDeliberadas.ConsoleApp.csproj" />
 </Solution>
